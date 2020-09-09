@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#wrapper {
+    width: calc (100% - 220px);
+    /* height: 1000px; */
+    margin: 20px;
+    background-color:red;
+}
+#wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header {
+    width: 100% ;
+    /* height: 50px; */
+    background: blue;
+    clear: both;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+.nav-menu {
+    width: 50%;
+    margin: 20px 25% ;
+    background-color: purple;
+
+}
+.nav-menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav li {
+    width: calc(25% - 5px);
+    display: inline-block;
+    line-height: 50px;
+    height: 50px;
+
+
+}
+ul li:hover {
+    background: white ;
+
+}
+a {
+    padding:
+}
+
+aside.left-sidebar {
+    margin-top: 10px;
+    width: 25%;
+    height: 100%;
+    float : left;
+    background: orange;
+}
+
+.leftbox {
+
+}
+
+main
+{
+    width: calc(50% - 40px);
+    height: 100%;
+    float : left;
+    background: green;
+    margin: 0 20px;
+}
+.right-sidebar {
+        width: 25%;
+        height: 100%;
+        float : right;
+        background: purple;
+}
+.right-sidebar .top {
+    /* margin-top: 10px; */
+    height: 50%;
+    background: pink;
+}
+.right-sidebar .bottom {
+    margin-top: 20px;
+    height: 50%;
+    background: lightpink;
+}
+.bottom h3 {
+    text-align: center;
+}
+footer {
+        margin-top: 20px;
+        width: 100% ;
+        height: 50px;
+        background: yellow;
+        clear: both;
+}
+input {
+
+        height:  30px;
+}
