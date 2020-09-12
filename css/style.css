@@ -79,6 +79,12 @@ ul li:hover {
     background: white ;
 
 }
+.box {
+    background-color: lightblue  ;
+    width: calc(100% - 50px);
+    margin: auto 25px;
+    margin-bottom: 25px;
+}
 
     /* Parte sinistra */
 aside.left-sidebar {
@@ -90,11 +96,12 @@ aside.left-sidebar {
 }
 
 .left-sidebar a {
-    text-decoration: none;
+    text-align: justify;
     color: green;
     line-height: 1.5;
+    padding-left: 20px;
 }
-
+    /* Parte centrale */
 main
 {
     width: calc(50% - 40px);
@@ -102,6 +109,12 @@ main
     float : left;
     background: green;
     margin: 0 20px;
+}
+main p {
+    text-align: justify;
+}
+h3 {
+    text-align: center;
 }
 /* Parte destra */
 .right-sidebar {
